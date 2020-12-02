@@ -38,11 +38,11 @@ function calcularNotaAluno(event) {
       8;
 
     if (resultado > 5 && resultado <= 7) {
-      resposta.innerHTML = `A media que você tirou foi razoável ${resultado}.`;
+      resposta.innerHTML = `A media que você tirou foi razoável ${resultado}!`;
     } else if (resultado > 7 && resultado <= 10) {
       resposta.innerHTML = `A media que você tirou foi de ${resultado} , foi considerado uma boa media parabéns! `;
     } else {
-      resposta.innerHTML = `A media que você tirou foi de ${resultado} ,  você precisa estudar `;
+      resposta.innerHTML = `A media que você tirou foi de ${resultado} ,  você precisa estudar !!!`;
     }
     console.log(resultado);
   }
