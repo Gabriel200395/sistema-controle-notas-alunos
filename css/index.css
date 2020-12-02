@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(20, 20, 250);
+  background-color: rgb(22, 22, 22);
 }
 
 .container {
@@ -15,44 +15,66 @@ body {
 }
 
 .formulario {
-  margin-top: 20px;
+  display: flex;
 }
 
-.home {
-  width: 70%;
-  border-radius: 10px;
-  height: 400px;
-  background-color: #fff;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.075);
-}
-
-form {
+#myform {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-#msg {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.home img {
-  border-radius: 50%;
-  width: 220px;
-  height: 220px;
-  object-fit: fill;
-}
 .title {
   margin-top: 60px;
-  margin-bottom: 30px;
-  color: #fff;
+  margin-bottom: 20px;
+  color: rgb(98, 196, 94);
   font: 30pt Arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+#myform input {
+  width: 200px;
+  height: 30px;
+  margin: 0px 13px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.lar {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  font: 13pt Arial;
 }
 
 .rodape {
   color: #fff;
   margin-top: 20px;
   font: 13pt Arial;
+}
+
+label {
+  color: #fff;
+  font: 13pt Arial;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(98, 196, 94);
+}
+
+button {
+  padding: 13px 13px 13px 13px;
+  background-color: rgb(98, 196, 94);
+  color: #fff;
+  border: none;
+  width: 20%;
+  border-radius: 6px;
+  margin-top: 10px;
+  outline: none;
 }
